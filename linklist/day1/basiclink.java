@@ -15,8 +15,8 @@ class basiclink{
 
     public static Node head;
     public static Node tail;
-   // static Node a;
-   public static int size;
+    // static Node a;
+     public static int size;
 
 
     //method 
