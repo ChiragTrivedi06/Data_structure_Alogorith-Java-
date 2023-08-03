@@ -45,19 +45,18 @@ class StackB{
     public static void main(String[] args) {
         stack o1 = new stack();
         stack o2= new stack();
-        // o1.push(11);
-        // o1.push(12);
+        o1.push(11);
+        o1.push(12);
         // o2.push(13);
         // o2.push(14);
         // o1.print();
-       System.out.println( o1.peek());
+         o1.print();
 
         // o1.print1();
         // o1.print1();
         // o2.print();
 
     }
-
     
     
 }

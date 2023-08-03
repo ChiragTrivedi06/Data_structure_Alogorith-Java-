@@ -44,6 +44,17 @@ public class search_link {
         return -1;
 
     }
+    public int size(){
+        Node  temp=head;
+        int s=1;
+        while(temp.next!=null){
+            temp=temp.next;
+            s++;
+
+        }
+        return s;
+
+    }
     // public int rec_search(int key ,int loc){
     //     if(head==null){
     //         return -1;
@@ -59,7 +70,7 @@ public class search_link {
     // }
     public void reverse(){
         Node curr=head;
-        Node prev = null;
+        Node prev =tail= null;
         Node nex;
         while(curr!=null){
            nex= curr.next;
@@ -69,7 +80,26 @@ public class search_link {
         }
         head=prev;
 
+
     }
+    public void  n_print(int data){
+        
+        Node temp=head;
+        int sz=size();
+        int pointer=1;
+     
+        while(pointer!=sz-data){
+            temp=temp.next;
+            pointer++;
+        }
+        temp.next=temp.next.next;
+
+
+    }
+
+
+
+    
     public  void print(){
         Node temp=head;
         if(temp==null){
@@ -91,8 +121,11 @@ public class search_link {
         ll.insert(1);
         ll.print();
         System.out.println(ll.search(4)+"and"+ll.size);   ///key think in print
-        System.out.println(ll.size);
-        ll.reverse();
+        System.out.println(ll.size());
+        // ll.reverse();
+        // ll.print();
+
+         ll.n_print(2);
         ll.print();
     }
 

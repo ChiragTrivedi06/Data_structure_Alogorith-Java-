@@ -1,0 +1,54 @@
+[33mcommit 99738897f07ed1b001d444d1eb901dc3f1f1af7b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: ChiragTrivedi06 <chiragtrivedi3120@gmail.com>
+Date:   Sun Jul 23 23:27:17 2023 +0530
+
+    add merge sort
+
+[33mcommit 2638eab8380411a3f999a27d91add92f24babd10[m
+Author: ChiragTrivedi06 <chiragtrivedi3120@gmail.com>
+Date:   Mon Jul 17 09:38:47 2023 +0530
+
+    add linklist file
+
+[33mcommit 8f757a5f61b56a0e8c988c629af65293f2fae1c2[m
+Author: ChiragTrivedi06 <chiragtrivedi3120@gmail.com>
+Date:   Thu Jun 8 15:09:55 2023 +0530
+
+    change in listlist
+
+[33mcommit 3c768aa01803d66aa9a89bc59caa0057a5c820d4[m
+Author: ChiragTrivedi06 <chiragtrivedi3120@gmail.com>
+Date:   Sun Jun 4 17:56:46 2023 +0530
+
+    commmit all
+
+[33mcommit 5fe966fb06e77d86bf9f1e1e50de1700d2d27c21[m
+Merge: d46733e 7a764be
+Author: ChiragTrivedi06 <chiragtrivedi3120@gmail.com>
+Date:   Sun Jun 4 17:48:35 2023 +0530
+
+    Merge branch 'master' of https://github.com/ChiragTrivedi06/Data_structure_Alogorith-Java-
+
+[33mcommit d46733ef55a0a01571d0cda16ccc175665a090c4[m
+Author: ChiragTrivedi06 <chiragtrivedi3120@gmail.com>
+Date:   Sun Jun 4 16:54:07 2023 +0530
+
+    add oops folder
+
+[33mcommit 7a764beae60758a226062d6caa534ceb7571d891[m
+Author: Chirag Trivedi <121475341+ChiragTrivedi06@users.noreply.github.com>
+Date:   Fri Jun 2 17:56:32 2023 +0530
+
+    Create README.md
+
+[33mcommit 2babb3c0f8aab5ca3868ba1129f1329f024b66ea[m
+Author: ChiragTrivedi06 <chiragtrivedi3120@gmail.com>
+Date:   Fri Jun 2 17:46:18 2023 +0530
+
+    add list
+
+[33mcommit 52d4736219f2b1c637392378b307661b01c6ea6e[m
+Author: ChiragTrivedi06 <chiragtrivedi3120@gmail.com>
+Date:   Fri Jun 2 17:28:04 2023 +0530
+
+    add array
