@@ -12,7 +12,11 @@ public class linkB1 {
         }
     }
     public static  Node head;
+    public static  Node tail;
     int size=0;
+    
+        
+
     public void insert(int data){
 
         Node newNode=new Node(data);
@@ -96,6 +100,10 @@ public class linkB1 {
     }
     public static void main(String []args){
         linkB1 s = new linkB1();
+        System.out.println(s.head);
+      //  System.out.println(s.tail);
+      
+       // System.out.println(s.i);
         s.insert(1);
         s.insert(2);  
 

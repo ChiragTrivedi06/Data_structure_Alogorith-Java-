@@ -1,1 +1,1 @@
-val
+ll.reversestack(ll)

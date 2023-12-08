@@ -30,7 +30,7 @@ public class search_link {
             return -1;
         }
         Node temp=head;
-        int k=0;
+        int k=0;  // initial to track index value
         while(temp!=null){
             if(temp.data ==key){
                 return k+1;
@@ -71,12 +71,12 @@ public class search_link {
     public void reverse(){
         Node curr=head;
         Node prev =tail= null;
-        Node nex;
+        Node nxt;
         while(curr!=null){
-           nex= curr.next;
+           nxt= curr.next;
            curr.next=prev;
            prev=curr;
-           curr=nex;
+           curr=nxt;
         }
         head=prev;
 
@@ -120,12 +120,14 @@ public class search_link {
         ll.insert(2);
         ll.insert(1);
         ll.print();
-        System.out.println(ll.search(4)+"and"+ll.size);   ///key think in print
+        System.out.println(ll.search(4)+" and "+ll.size);   ///key think in print
         System.out.println(ll.size());
         // ll.reverse();
         // ll.print();
 
          ll.n_print(2);
+        ll.print();
+        ll.reverse();
         ll.print();
     }
 

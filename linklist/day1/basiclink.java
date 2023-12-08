@@ -313,7 +313,7 @@ class basiclink{
 
 
     public static void main(String args[]) {
-         basiclink ll=new basiclink();
+        //  basiclink ll=new basiclink();
       //   System.out.println(size);  ///initial  size =0;
    
 
@@ -327,20 +327,20 @@ class basiclink{
 
 
 
-        ll.addfirst(2);
-        ll.addfirst(1);
-        ll.addlast(2);
-        ll.addlast(1);
+        // ll.addfirst(2);
+        // ll.addfirst(1);
+        // ll.addlast(2);
+        // ll.addlast(1);
     
 
-        printlist();
+        // printlist();
         // ll.addlast(600);
         // printlist();
         // size();
-        System.out.println(size);
+        // System.out.println(size);
 
-        ll.addmiddle(2, 9);
-        printlist();
+        // ll.addmiddle(2, 9);
+        // printlist();
 
    
 
@@ -364,17 +364,16 @@ class basiclink{
 
     //    System.out.println(ll.delnth_end(3)); 
     //     printlist();
-      Node p=ll.findmid(head);
-      System.out.println(p.data); 
+    //   Node p=ll.findmid(head);
+    //   System.out.println(p.data); 
 
-      System.out.println(ll.checkPalindrome());
+    //   System.out.println(ll.checkPalindrome());
        
-      printlist();
+    //   printlist();
 
 
-      System.out.println(ll.isCyclic());
+    //   System.out.println(ll.isCyclic());
      
-
     }
 
 }

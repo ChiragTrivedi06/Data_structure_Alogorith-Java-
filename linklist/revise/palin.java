@@ -1,5 +1,5 @@
 public class palin {
-    class Node{
+    static class Node{
         int data;
         Node  next;
         Node(int data){
@@ -50,6 +50,7 @@ public class palin {
             fast=fast.next.next;
         }
         Node curr=slow;
+        // System.out.println(slow.data);
         Node prev= null;
         Node nex ;
          while(curr!=null){
@@ -64,8 +65,9 @@ public class palin {
          }
          Node tail=prev;
          Node left=head;
+
          
-        while( left.next.next!=null || tail.next!=null){
+        while( left.next!=null || tail.next!=null){
 
                if(left.data!=tail.data){
                     return false;
@@ -83,6 +85,7 @@ public class palin {
     public static boolean checkCycle(){
         Node fast = head;
         Node  slow = head;
+    
          while(fast !=null && fast.next !=null){
 
             slow=slow.next;
@@ -91,28 +94,42 @@ public class palin {
                 return true;
             }
          }
-         return false;
+         return true;
     }
 
-    public void c
+ 
     public static void main(String args[]){
         palin ll= new palin();
         ll.insert(1);
         ll.insert(2);
         ll.insert(3);
-        ll.insert(4);
-        ll.insert(5);
-        ll.print();
+        ll.insert(2);
+        ll.insert(1);
+       
+        // ll.print();
         // System.out.println(ll.checkpalindrome());
+        // Node x=ll.findmid();
+        // System.out.println(x.data);
+        // ll.print();
           
-        //   Node head=new Node(1);
-        //  head.next =new Node (2);
-        //  head.next.next=new Node (3);
-        //  head.next.next.next=new Node (4);
-        //  head.next.next.next.next=head;
-        /// ll.print();
+          Node head1=new Node(1);
+          head1.next =new Node (2);
+         head1.next.next=new Node (3);
+         head1.next.next.next=new Node (4);
+         head1.next.next.next.next=head1;
+         
+         Node temp=head1.next;
+         
+        //  temp=temp.next;
+         while(temp !=head1){
+            System.out.print(temp.data+" ");
+            temp=temp.next;
 
-       // System.out.println(checkCycle());
+         }
+         System.out.println(temp.data);
+
+
+       System.out.println(checkCycle());
 
 
 
